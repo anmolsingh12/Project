@@ -1,0 +1,255 @@
+<app-header></app-header>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+               
+				<button type="button" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+                </button>
+            
+			</div>   
+			<div class="single-page-nav sticky-wrapper" id="tmNavbar">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="#section1">Homepage</a></li>
+					<li><a href="#section2">About Us</a></li>
+					
+					<li><a href="#section4">Contact</a></li>
+				</ul>
+			</div>   
+		</div>
+	</nav>    
+
+	<div id="section1">
+		<header id="header-area" class="intro-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<div class="header-content">
+					
+                            <h1 class="text-monospace" class="font-weight-bold" style=" color:rgb(18, 15, 43);">Online Examination Portal</h1>
+                            
+							<!-- Home -->
+
+	<div class="home">
+		<div class="home_slider_container">
+			
+			<!-- Home Slider -->
+			<div class="owl-carousel owl-theme home_slider">
+				
+				<!-- Home Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_content">
+                           
+						<div class="container">
+                        <div class="spacer100"></div>
+							<div class="row">
+								<div class="col-sm-12 text-center">
+									<div class="home_slider_form_container">
+										<form action="#" id="home_search_form_1" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
+											<div class="d-flex flex-row align-items-center justify-content-start">
+                                                <input style="background-color:white; font-size: 20px;"  type="search" class="home_search_input " placeholder="Keyword Search" required="required">
+                                                <div class="col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+												<select style=" font-size: 20px;" class="dropdown_item_select home_search_input" [(ngModel)] = "course">
+													<option *ngFor = "let course of courses " [value]=" course "  >{{course}}</option>
+                                                </select>
+                                                <div class="col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+												<select style=" font-size: 20px;" class="dropdown_item_select home_search_input" [(ngModel)] = "price" >
+													<option *ngFor = "let price of prices " [value]= " price "  >{{price}}</option>
+												</select>
+											</div>
+											<button type="button" class="btn btn-default btn-lg">Search</button>
+											
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+                <div class="spacer500"></div>    
+			
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+    
+    
+
+
+	
+
+					<!-- Start Testimornial Area -->
+					<section id="testimornial-area">
+						<div class="container">
+							<div class="row text-center">
+								<div class="col-lg-4 col-md-4 col-sm-7 col-xs-7 col-xxs-13">
+									<div class="testimonial-content">
+										<img src="../assets/img/4-1.jpg" alt="Image">
+										<div class="spacer50"></div>
+										<h1>Easy</h1>
+										<p style="text-align: center">Covers and tests all your fundamentals of the subject.</p>		
+										<a href="#" class="content-link">Attempt</a>
+										<br>
+										<p id="redd1"></p>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-7 col-xs-7 col-xxs-13">
+									<div class="testimonial-content">
+										<img src="../assets/img/4-2.jpg" alt="Image">
+										<div class="spacer50"></div>
+										<h1>Hard</h1>
+										<p style="text-align: center">Tests your knowledge of application of the subject.</p>
+                                        <a href="#" class="content-link">Attempt</a>
+										<br>
+										<p id="redd2"></p>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-7 col-xs-7 col-xxs-13">
+									<div class="testimonial-content">
+										<img src="../assets/img/4-3.jpg" alt="Image">
+										<div class="spacer50"></div>
+										<h1>Advance</h1>
+										<p style="text-align: center">Ace this test and you will be ready to ace your exam!</p>
+										<a href="#" class="content-link">Attempt</a>
+										<br>
+										<p id="redd3"></p>
+									</div>
+								</div>
+								
+                            </div>
+                            <div id="section2"></div>
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="tm-box">
+										<img src="../assets/img/4-5.jpg" alt="Image" class="img-responsive">
+										<div class="tm-box-description">
+											<h2>About Us</h2>
+											<p class="tm-box-p">This Online Examination Portal is an expertise service provided by us which is a fast, accurate, efficient,
+												human-error-free, fully-automated online exam. It is conducted for Professional Courses, Competitive Exams, Campus Recruitment, Government Recruitment etc. We aim to provide users with a more efficient, user-friendly website with better functionality for the numerous students who prepare for various examinations every year. </p>
+											    
+										</div>                        
+									</div>                    
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- End Testimornial Area -->
+				</div>
+				<div id="section4">
+					<!-- Start Contact Area -->
+					<section id="contact-area" class="contact-section">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12 text-center inner">
+									<div class="contact-content" >
+										<h1 style=" color:rgb(18, 15, 43);">contact form</h1>
+										<div class="row">                            
+											<div class="col-sm-12">
+												<p>Please fill in your name, e-mail id and subject along with your query/suggestions if you have any.
+												   We will get back to you within 2 days of you contacting us. Feel free to drop a message!</p>
+												
+												</div>                            
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-12">
+										<form action="#" method="post" class="contact-form">
+											<div class="col-sm-6 contact-form-left">
+												<div class="form-group">
+													<input name="name" type="text" class="form-control" id="name" placeholder="Name">
+												  	<input type="email" name="email" class="form-control" id="mail" placeholder="Email">
+													<input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-sm-6 contact-form-right">
+												<div class="form-group">
+													<textarea name="message" rows="6" class="form-control" id="comment" placeholder="Your message here..."></textarea>
+													<button type="submit" class="btn btn-default">Send</button>
+												</div>
+											</div>                        
+										</form>    
+									</div>                
+								</div>
+							</div>
+						</section>
+						<!-- End Contact Area -->
+					</div>
+
+					
+						<script src="js/jquery-1.11.2.min.js"></script>
+						<script src="js/jquery.scrollUp.min.js"></script> <!-- https://github.com/markgoodyear/scrollup -->
+						<script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+						<script src="js/parallax.js-1.3.1/parallax.js"></script> <!-- http://pixelcog.github.io/parallax.js/ -->
+						<script>
+
+    // HTML document is loaded. DOM is ready.
+    $(function() {  
+
+    // Parallax
+        $('.intro-section').parallax({
+        	imageSrc: 'img/bg-1.jpg',
+        	speed: 0.2
+        });
+        $('.services-section').parallax({
+        	imageSrc: 'img/bg-2.jpg',
+        	speed: 0.2
+    	});
+        $('.contact-section').parallax({
+        	imageSrc: 'img/bg-3.jpg',
+        	speed: 0.2
+        });    
+
+        // jQuery Scroll Up / Back To Top Image
+        $.scrollUp({
+                scrollName: 'scrollUp',      // Element ID
+		        scrollDistance: 300,         // Distance from top/bottom before showing element (px)
+		        scrollFrom: 'top',           // 'top' or 'bottom'
+		        scrollSpeed: 1000,            // Speed back to top (ms)
+		        easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+		        animation: 'fade',           // Fade, slide, none
+		        animationSpeed: 300,         // Animation speed (ms)		        
+		        scrollText: '', // Text for element, can contain HTML		        
+		        scrollImg: true            // Set true to use image		        
+            });
+
+        // ScrollUp Placement
+        $( window ).on( 'scroll', function() {
+
+            // If the height of the document less the height of the document is the same as the
+            // distance the window has scrolled from the top...
+            if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
+
+                // Adjust the scrollUp image so that it's a few pixels above the footer
+                $('#scrollUp').css( 'bottom', '80px' );
+
+            } else {      
+                // Otherwise, leave set it to its default value.
+                $('#scrollUp').css( 'bottom', '30px' );        
+            }
+        });
+
+        $('.single-page-nav').singlePageNav({
+        	offset: $('.single-page-nav').outerHeight(),
+        	speed: 1500,
+        	filter: ':not(.external)',
+        	updateHash: true
+        });
+
+        $('.navbar-toggle').click(function(){
+        	$('.single-page-nav').toggleClass('show');
+        });
+
+        $('.single-page-nav a').click(function(){
+        	$('.single-page-nav').removeClass('show');
+        });
+        
+    });
+</script>

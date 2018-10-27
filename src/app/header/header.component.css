@@ -1,0 +1,12 @@
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("src/assets/img/bg-1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
