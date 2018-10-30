@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  courses ;
+  courses:any;
   prices ;
-  choice;
-  price ;
+  course ;
+  price;
 
   constructor() {
     this.courses = [ 'English', 'Math' , 'Science' ];
