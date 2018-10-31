@@ -1,0 +1,45 @@
+<div id="section1" style="padding: 30px">
+    <header id="header-area" class="intro-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <div class="header-content">
+              <h1 style=" color:rgb(18, 15, 43);">Online Examination Portal</h1>
+              <div class="container">
+                <div class="col text-center">
+                  <form class="form-inline">
+                    <div class="form-row">
+                      <div class="col-xs-2">
+                        <label for="search" class="sr-only">Email</label>
+                        <input type="text" placeholder="Keyword Search" required="required" class="form-control" id="search">
+                      </div>
+                      <div class="col-xs-2">
+                        <select class="custom-select mr-sm-2" [(ngModel)]="course">
+                          <option *ngFor="let course of courses" [value]="course">{{course}}</option>
+                        </select>
+                      </div>
+                      <div class="col-xs-2">
+                        <select class="custom-select mr-sm-2" [(ngModel)]="price">
+                          <option *ngFor="let price of prices " [value]=" price ">{{price}}</option>
+                        </select>
+                      </div>
+  
+                      <div class="col-xs-4">
+  
+                      </div>
+  
+                      <div class="col-xs-2">
+                        <button type="button" class="btn btn-default">Search</button>
+                      </div>
+                    </div>
+                  </form>
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  
